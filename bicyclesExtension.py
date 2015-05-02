@@ -1,5 +1,4 @@
 class Frame(object):
-    
   def __init__(self, material, weight, cost):
     self.material = material
     self.weight = weight
@@ -11,7 +10,6 @@ class Frame(object):
 
 
 class Wheel(object):
-    
   def __init__(self, model, weight, cost):
     self.model = model
     self.weight = weight
@@ -23,7 +21,6 @@ class Wheel(object):
     
     
 class Bicycle(object):
-    
   def __init__(self, name, frame, wheel):
     self.name = name
     self.frame = frame
@@ -37,7 +34,6 @@ class Bicycle(object):
   
   
 class BikeShop(object):
-    
   def __init__(self, name, margin, bikes):
     self.name = name
     self.margin = margin
@@ -66,7 +62,6 @@ class BikeShop(object):
 
     
 class Customer(object):
-  
   def __init__(self, name, fund):
     self.name = name
     self.fund = fund
